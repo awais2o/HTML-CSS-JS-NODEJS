@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display </title>
+    <style>
+        div#a {
+            width: 98vw;
+            border: 4px solid black;
+            /* border-color: brown; */
+
+        }
+
+        h2 {
+            display: block;
+            margin: auto;
+            width: 20%;
+
+        }
+
+        .box {
+            border: 1px solid red;
+            box-sizing: border-box;
+            display: inline-block;
+            width: 48%;
+            margin: 0.9%;
+            height: max-content;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="a">
+        <h2>Awais</h2>
+        <div class="box">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam est corrupti officiis natus, quidem ad
+                exercitationem ipsa nisi atque minima, culpa optio veniam itaque magnam sapiente molestias fuga mollitia
+                aliquam labore, earum quaerat voluptate sed porro. Ad eveniet cum voluptates delectus praesentium
+                deserunt repudiandae labore alias veritatis libero, quas dolore numquam cupiditate aperiam sequi rerum
+                obcaecati doloribus ipsam unde vero iure nulla? Asperiores, culpa blanditiis. Facere sapiente doloribus
+                ullam numquam quis voluptatem veniam eligendi ipsum repellendus optio. Beatae architecto, voluptatem
+                molestiae dolore numquam ea. Odit explicabo error maxime iusto, aliquam blanditiis doloribus pariatur
+                ratione assumenda cupiditate ullam ipsum minus exercitationem nemo? Blanditiis odit error doloremque
+                magnam hic reiciendis voluptatibus iste porro nihil, vel alias? Maxime dolorem, reprehenderit placeat
+                dolorum vitae impedit atque unde asperiores ipsam quo earum doloribus quis consectetur. Quasi debitis
+                inventore aperiam nesciunt modi voluptate id, quam, eius voluptatem, nostrum sunt soluta est pariatur ex
+                quod alias eveniet?</p>
+        </div>
+        <div class="box">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eius recusandae molestiae enim, nostrum
+                alias autem neque, nesciunt error facere voluptatum facilis libero earum ex veritatis iusto? Fugiat
+                incidunt veniam quaerat mollitia ut accusamus molestias voluptatibus, ratione quod nulla nisi expedita
+                doloribus facere numquam doloremque cum minima tenetur earum obcaecati recusandae dicta iste non amet.
+                Fugiat inventore quia expedita hic in sint perferendis sapiente aut sit libero, debitis placeat maxime
+                ab, ipsam reiciendis, laborum sunt! Explicabo alias accusantium consequatur magni pariatur vero ipsa
+                ducimus nam! Officiis repudiandae tempore fugiat unde vitae recusandae minima doloremque et, culpa
+                soluta! Possimus tenetur velit impedit, aliquid animi ad repellendus reprehenderit totam, amet explicabo
+                illum sapiente eum esse obcaecati exercitationem dolore unde labore quibusdam nemo asperiores nostrum
+                qui nam necessitatibus dolorum! Totam sit eos doloribus iure minus, mollitia quidem qui cumque natus
+                eligendi quibusdam libero est amet quam aut veniam iste possimus, voluptas iusto dolore.
+            </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
