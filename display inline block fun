@@ -9,6 +9,7 @@
     <style>
         div#a {
             width: 98vw;
+            height: 95vh;
             border: 4px solid black;
             /* border-color: brown; */
 
@@ -29,12 +30,17 @@
             margin: 0.9%;
             height: max-content;
         }
+        p{
+            text-align:justify;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        }
     </style>
 </head>
 
 <body>
     <div id="a">
-        <h2>Awais</h2>
+        <h2 style="margin-bottom: 1vh;">Awais</h2>
         <div class="box">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam est corrupti officiis natus, quidem ad
                 exercitationem ipsa nisi atque minima, culpa optio veniam itaque magnam sapiente molestias fuga mollitia
