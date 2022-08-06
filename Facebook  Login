@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login By Awais</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container {
+            height: 99vh;
+           
+            background-color: #f5fdff;
+        }
+
+        #Fb {
+            width: 40vw;
+            display: inline-block;
+            position: absolute;
+            left: 10vw;
+            top: 30vh;
+        }
+
+        #Fb h1 {
+            color: #1877f2;
+            font-family: klavika-web, sans-serif;
+            font-size: 55px;
+            word-spacing: 1%;
+            margin: 1vw;
+        }
+
+        #Fb p {
+            font-family: klavika-web, sans-serif;
+            font-size: 28px;
+            margin: 1vw;
+            margin-right: 0px;
+
+        }
+
+        #inp {
+            display: inline-block;
+            position: absolute;
+            left: 56vw;
+            top: 20vh;
+            width: 29vw;
+            padding-bottom: 25px;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: 20px black;
+        }
+
+        form,
+        ul,
+        li {
+            display: inline;
+        }
+
+        .size {
+            width: 91%;
+            margin: 20px;
+            height: 47px;
+            border-radius: 5px;
+            border: 0.4px solid rgb(230, 230, 230);
+
+
+        }
+
+        input::placeholder {
+            color: rgb(192, 192, 192);
+            font-size: medium;
+        }
+
+        button {
+            background-color: #1877f2;
+            color: white;
+            font-size: large;
+        }
+
+        button {
+            font-weight: bold;
+        }
+
+        ul a {
+            margin: auto;
+            margin-left: 35%;
+            color: #1877f2;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        hr {
+            margin-left: 20px;
+            width: 91%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-top: #e7e7e7;
+        }
+
+        #newacc {
+            background-color: #42b72a;
+
+            border: 0px;
+            border-radius: 6px;
+            border-color: none;
+            font-size: 16px;
+            line-height: 48px;
+            padding: 0px 16px;
+            margin-left: 88px;
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-size: 17px;
+
+        }
+
+        #createapage {
+            display: inline;
+            margin: 0px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        #createapage:hover {
+            text-decoration: black underline;
+        }
+
+        #note {
+            position: relative;
+            top: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="Fb">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div id="inp">
+            <form action="">
+                <ul>
+                    <li><input type="text" placeholder="&nbsp; &nbsp; Email address or phone number" class="size"
+                            style="margin-bottom: 10px;"></li>
+                    <li><input type="text" placeholder="&nbsp; &nbsp;Password" class="size"
+                            style="margin-top: 10px; margin-bottom: 10px;"></li>
+                    <button class="size" style="margin-top:10px ;margin-bottom: 10px;">Log In</button>
+                    <a href="" style="margin-top:20px">Forgotten password?</a>
+                    <hr>
+                    <button id="newacc">Create New Account</button>
+                    <div id="note">
+                        <a href="" id="createapage" style="float: left;">Create a Page</a>
+                        <p style="float: left;">&nbsp;for a celebrity, brand or business.</p>
+                    </div>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
